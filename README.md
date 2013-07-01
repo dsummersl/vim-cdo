@@ -6,7 +6,7 @@ Runs the same command over every entry in the quickfix list (:Cdo) or location l
 Example: Find every instance of foo in the working directory and replace it with bar.
 
     :grep foo
-    :Cdo s/foo/bar/c | update
+    :Cdo execute 's/foo/bar/c | update'
 
 
 Author
